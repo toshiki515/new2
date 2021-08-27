@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-initializr-dev-203614-authRole",
+      "UnauthRoleArn": "arn:aws:iam::540384692599:role/amplify-initializr-dev-203614-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::540384692599:role/amplify-initializr-dev-203614-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-initializr-dev-203614-deployment",
+      "UnauthRoleName": "amplify-initializr-dev-203614-unauthRole",
+      "StackName": "amplify-initializr-dev-203614",
+      "StackId": "arn:aws:cloudformation:us-east-1:540384692599:stack/amplify-initializr-dev-203614/fed6e5c0-072a-11ec-a07a-120e6de30a9d",
+      "AmplifyAppId": "d370esg6za8m15"
+    }
+  },
+  "auth": {
+    "initializrff2343ac": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-initializr-dev-203614-deployment/amplify-cfn-templates/auth/initializrff2343ac-cloudformation-template.yml",
+        "logicalId": "authinitializrff2343ac"
+      },
+      "lastPushTimeStamp": "2021-08-27T11:47:22.350Z",
+      "output": {
+        "UserPoolId": "us-east-1_WiW9zxEbV",
+        "AppClientIDWeb": "3p9gel2ifmtmr19pvm1809leo",
+        "AppClientID": "41k02i6kfonesqkmc5kgga3ass",
+        "IdentityPoolId": "us-east-1:331d04f0-6c80-4043-bb7f-9b0dfd3c5668",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:540384692599:userpool/us-east-1_WiW9zxEbV",
+        "IdentityPoolName": "initializrff2343ac_identitypool_ff2343ac__dev",
+        "UserPoolName": "initializrff2343ac_userpool_ff2343ac"
+      },
+      "lastPushDirHash": "VDxHL16Ik9aiK06TmpTTwZ5O8pU="
+    }
+  }
+}
